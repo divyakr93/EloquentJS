@@ -1,7 +1,8 @@
 //simple object
 let obj = { squirrel: false,
             events: ["worked", "touched tree", "pizza", "running"]
-        }; console.log(obj.squirrel);
+        }; 
+        console.log(obj.squirrel);
         obj.wolf =  false;
         console.log(obj.wolf); 
         console.log("wolf" in obj);
@@ -10,3 +11,4 @@ let obj = { squirrel: false,
         delete obj.deer;
         console.log("deer" in obj);
         console.log(obj.deer);
+        console.log(`properties of obj--->  ${Object.keys(obj)}`);
