@@ -1,6 +1,7 @@
 //array with its functions
 let arr = [2, 4, 6, 8, 10,12];
 let arrodd = [1, 3, 5, 7];
+console.log(`maximum of arr ${max(...arr)}`);
 console.log(`Initial array ---> ${arr}`);
 console.log(`index of arr element 4 ---> ${arr.indexOf(4)} `);
 console.log(`last index of arr of 4 ----> ${arr.lastIndexOf(4)}`);
