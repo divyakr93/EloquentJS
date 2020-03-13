@@ -16,7 +16,7 @@ let obj = { squirrel: false,
             a: 1, b: 2
         };
         console.log("first object ", objA);
-        Object.assign(objA,{b: 3,c: 4});
+        Object.assign(objA, {b: 3,c: 4});
         console.log("updated object ", objA);
         console.log("type of [] is----> ",typeof []);
         console.log("type of objA----> ",typeof objA);      
