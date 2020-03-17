@@ -13,7 +13,7 @@ function countchar(str,ch)
 console.log(countchar("BEANCOUNTING", 'N'));
 function countB(str)
 {
-	return countchar(str)
+	return countchar(str, "B");
 }
 console.log(countB("BeanCouning"));
 
