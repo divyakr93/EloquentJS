@@ -1,7 +1,7 @@
 var range = function(start, end)
 {
 	var arr = [];
-	for(let i= 0;i<end;i++)
+	for(let i= 0;i < end;i++)
 	{
 		arr.push(i);
 	}
@@ -9,19 +9,20 @@ var range = function(start, end)
 };
 function sum(arr)
 {
-	var total =0;
-	for(let i =0;i<arr.lenght;i++)
+	var total = 0;
+	//var arr = [];
+	for(let i = 0;i < arr.length;i++)
 	{
-		total += i;
+		total = total + arr[i];
 	}
 return total;
 }
-function range1(strat,end,step)
+function range1(start,end,step)
 {
-	var arr[];
-	if(step == 0)
+	var arr = [];
+	if(step > 0)
 	{
-		for(let i=start;i<=end;)
+		for(let i = start;i <= end;)
 		{
 			arr.push(i);
 			i = i + step;
@@ -30,7 +31,7 @@ function range1(strat,end,step)
 	}
 	else
 	{
-		for(let i= start;i >=end;)
+		for(let i = start;i >= end;)
 		{
 			arr.push(i);
 			i = i + step;
@@ -39,6 +40,6 @@ function range1(strat,end,step)
 	}
 
 }
-console.log(range());
-console.log(sum());
-console.log(range1());
+console.log(range(0,6));
+console.log(range1(0, 6, 2));
+console.log(sum([12,65,23,78]));
